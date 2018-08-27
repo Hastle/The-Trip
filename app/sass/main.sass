@@ -60,45 +60,75 @@ button:focus
 	float: right
 .text-center
 	text-align: center
-/*==========  Owl-carousel  ==========*/
-.owl-carousel .owl-nav button.owl-next
-	right: 0
-	position: absolute
-.owl-nav i
-	font-size: 25px
-	padding: 5px
-.owl-dots
+section
+	height: 100vh
+	width: 100%
 	display: flex
-	justify-content: center
-	height: 40px
-.owl-carousel button.owl-dot
-	display: flex
-	align-self: center
-	width: 12px
-	height: 12px
-	margin: 5px
-	background-color: #222
-	border-radius: 50%
+	background-repeat: no-repeat
+	background-position: center
+	background-attachment: fixed
 /*==========  Slick-slider  ==========*/
 .slick-slide
 	outline: none !important
-.slick
-	height: 100%
-	overflow: hidden
-	position: relative
-	width: 100%
-.slick-dotted.slick-slider
-	margin-bottom: 0
-.slick-dots
-	bottom: 10px
-.slick-dots li button:before
-	font-size: 9px
-	color: #bed1d2
-.slick-dots li.slick-active button:before
-	color: #fff
-	+flow
-.slick-prev
-	left: 15px
-.slick-next
-	right: 15px
+.slider-nav
+	width: 800px
 /*==========  Header  ==========*/
+header
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 100vh
+	width: 100%
+	background-color: #222
+	background-image: url("https://media.giphy.com/media/852FlWIqjq7bq/giphy.gif")
+	background-attachment: fixed
+	background-position: -40px 70px
+	.review
+		//background: #f3d5f3
+		padding: 15px
+		border-radius: 8px
+	a
+		font-size: 40px
+		margin: 0
+		font-family: 'Kaushan', cursive
+		color: #df7ddf
+		text-decoration: none
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			bottom: 6px
+			height: 2px
+			width: 100%
+			background: #df7ddf
+			transform: scale(0)
+		&:hover:before
+			transform: scale(1)
+			+flow-slow(.6s)
+/*==========  Page1  ==========*/
+#page1
+	background-color: #CCFFFF
+	background-image: url("https://media.giphy.com/media/f5IJmB7fiZhle/giphy.gif")
+	background-size: 40%
+/*==========  Page2  ==========*/
+#page2
+	background-color: pink
+	background-image: url("https://media.giphy.com/media/cOZtZNZt2yg2k/giphy.gif")
+	background-size: 40%
+/*==========  Page3  ==========*/
+
+#page3
+	background-color: #99FF66
+	background-image: url("https://media.giphy.com/media/QPb2M7Ad5KjVC/giphy.gif")
+	background-size: 40%
+	/*==========  Page3  ==========*/
+#page4
+	background-color: #FFCC99
+	background-image: url("https://media.giphy.com/media/rbEQ5LkMhxUvm/giphy.gif")
+	background-size: 40%
+	/*==========  Page3  ==========*/
+#page5
+	background-color: #9999FF
+	justify-content: center
+	align-items: center

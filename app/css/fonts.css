@@ -38,3 +38,9 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: "Kaushan";
+	src: url("../fonts/Kaushan/Kaushan.ttf");
+	font-style: normal;
+	font-weight: normal;
+}

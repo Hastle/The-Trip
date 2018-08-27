@@ -26,10 +26,17 @@ $(document).ready(function() {
 	$("a[href*='#'],.scroll").mPageScroll2id();
 
 	$('.slick').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 600,
 		slidesToShow: 1,
+	});
+
+	$('.slider-nav').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		focusOnSelect: true
 	});
 
 	$('.owl-carousel').owlCarousel({
