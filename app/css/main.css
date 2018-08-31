@@ -89,6 +89,10 @@ section {
   background-position: center;
   background-attachment: fixed; }
 
+p {
+  font-family: 'Kaushan';
+  font-size: 18px; }
+
 /*==========  Slick-slider  ==========*/
 .slick-slide {
   outline: none !important; }
@@ -176,6 +180,7 @@ header {
   /*==========  Page3  ==========*/ }
 
 #page5 {
+  height: auto;
   background-color: #9999FF;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -184,4 +189,14 @@ header {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40px; }
+  #page5 .descr {
+    margin-top: 20px; }
+  #page5 p {
+    margin: 0; }
