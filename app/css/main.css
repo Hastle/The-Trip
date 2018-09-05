@@ -138,10 +138,15 @@ header {
       bottom: 6px;
       height: 2px;
       width: 100%;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
       background: #df7ddf;
       -webkit-transform: scale(0);
           -ms-transform: scale(0);
-              transform: scale(0); }
+              transform: scale(0);
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
     header a:hover:before {
       -webkit-transform: scale(1);
           -ms-transform: scale(1);
