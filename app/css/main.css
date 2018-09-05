@@ -169,16 +169,16 @@ header {
   background-color: #99FF66;
   background-image: url("https://media.giphy.com/media/QPb2M7Ad5KjVC/giphy.gif");
   -webkit-background-size: 40% 40%;
-          background-size: 40%;
-  /*==========  Page3  ==========*/ }
+          background-size: 40%; }
 
+/*==========  Page3  ==========*/
 #page4 {
   background-color: #FFCC99;
   background-image: url("https://media.giphy.com/media/rbEQ5LkMhxUvm/giphy.gif");
   -webkit-background-size: 40% 40%;
-          background-size: 40%;
-  /*==========  Page3  ==========*/ }
+          background-size: 40%; }
 
+/*==========  Page3  ==========*/
 #page5 {
   height: auto;
   background-color: #9999FF;
@@ -200,3 +200,8 @@ header {
     margin-top: 20px; }
   #page5 p {
     margin: 0; }
+  #page5 i {
+    font-size: 20px;
+    color: red;
+    margin-left: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }

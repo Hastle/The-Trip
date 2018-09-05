@@ -4,7 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+@import "https://use.fontawesome.com/releases/v5.3.1/css/all.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css";
 @-ms-viewport {
