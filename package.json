@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "version": "",
+  "name": "trip",
   "dependencies": {
     "gulp": "^3.9.1"
   },
@@ -19,5 +18,21 @@
     "gulp-uglify": "^3.0.0",
     "imagemin-jpeg-recompress": "^5.1.0",
     "imagemin-pngquant": "^5.0.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hastle/The-Trip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hastle/The-Trip/issues"
+  },
+  "homepage": "https://github.com/Hastle/The-Trip#readme",
+  "description": ""
 }
