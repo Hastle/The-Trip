@@ -35,7 +35,8 @@ var jsfiles = [
 'app/libs/wow/wow.js',
 'app/libs/slick/slick.min.js',
 'app/libs/owl-carousel/owl.carousel.min.js',
-'app/libs/waypoints/waypoints-1.6.2.min.js'
+'app/libs/waypoints/waypoints-1.6.2.min.js',
+'app/libs/rellax/rellax.min.js'
 ];
 
 gulp.task('scripts', function () {

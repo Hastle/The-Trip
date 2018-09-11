@@ -44,6 +44,8 @@ button:focus
 ///.parallax-container
 ///    height: 100%
 ///    width: 100%
+.row, .row [class*='col-']
+	height: 100%
 .row-flex 
 	display: flex
 	flex-flow: row wrap
@@ -64,6 +66,7 @@ section
 	height: 100vh
 	width: 100%
 	display: flex
+	position: relative
 	background-repeat: no-repeat
 	background-position: center
 	background-attachment: fixed
@@ -126,13 +129,59 @@ header
 	background-color: #99FF66
 	background-image: url("https://media.giphy.com/media/QPb2M7Ad5KjVC/giphy.gif")
 	background-size: 40%
-/*==========  Page3  ==========*/
+/*==========  Page4  ==========*/
 #page4
 	background-color: #FFCC99
 	background-image: url("https://media.giphy.com/media/rbEQ5LkMhxUvm/giphy.gif")
 	background-size: 40%
-/*==========  Page3  ==========*/
+/*==========  Page5  ==========*/
 #page5
+	background-color: pink
+	overflow: hidden
+	.sm-green
+		display: inline-block
+		width: 60px
+		height: 60px
+		background: rgb(0, 241, 201)
+		border-radius: 12px
+	.lg-blue
+		width: 160px
+		height: 160px
+		align-self: center
+		margin-top: 320px
+		margin-left: 39px
+		background: #9999FF
+		border-radius: 12px
+	h3
+		padding: 0
+		margin-top: 50%
+		font-size: 68px
+		color: #FF00FF
+		font-family: 'Kaushan'
+	.trangle
+		position: absolute
+		bottom: 160px
+		width: 0
+		height: 0
+		border-bottom: 400px solid #fcf921
+		border-left: 200px solid transparent
+		border-right: 100px solid transparent
+	.pacman
+		position: absolute
+		right: 40px
+		bottom: 100px
+		width: 0
+		height: 0
+		border-right: 40px solid transparent
+		border-top: 40px solid #D10A11
+		border-left: 40px solid #FF4040
+		border-bottom: 40px solid #FF4040
+		border-top-left-radius: 40px
+		border-top-right-radius: 40px
+		border-bottom-left-radius: 40px
+		border-bottom-right-radius: 40px
+/*==========  Last  ==========*/
+#last
 	height: auto
 	background-color: #9999FF
 	justify-content: center
