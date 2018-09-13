@@ -36,7 +36,8 @@ $(document).ready(function() {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: true,
-		focusOnSelect: true
+		focusOnSelect: true,
+		adaptiveHeight: true
 	});
 
 	$('.owl-carousel').owlCarousel({
@@ -47,6 +48,15 @@ $(document).ready(function() {
 		dots: true,
 		navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
 		margin: 10
+	});
+
+	var rellax = new Rellax('.rellax', {
+		speed: -2,
+		center: true,
+		wrapper: null,
+		round: true,
+		vertical: true,
+		horizontal: false
 	});
 
 });
