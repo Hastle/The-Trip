@@ -25,19 +25,14 @@ $(document).ready(function() {
 
 	$("a[href*='#'],.scroll").mPageScroll2id();
 
-	$('.slick').slick({
-		dots: false,
-		infinite: true,
-		speed: 600,
-		slidesToShow: 1,
-	});
-
 	$('.slider-nav').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: true,
 		focusOnSelect: true,
-		adaptiveHeight: true
+		adaptiveHeight: true,
+		nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+		prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
 	});
 
 	$('.owl-carousel').owlCarousel({
