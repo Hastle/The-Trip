@@ -67,6 +67,9 @@ button:focus {
   padding-right: 0;
   padding-left: 0; }
 
+[class*='col-'] {
+  height: auto !important; }
+
 .clearfix {
   display: block;
   content: "";
@@ -261,8 +264,21 @@ header {
 
 /*==========  Page6  ==========*/
 #page6 {
-  height: 500px;
+  height: auto;
+  padding: 40px 0;
   background-color: #39EA8B; }
+  #page6 .card {
+    background-color: #E9E8E7;
+    padding: 30px;
+    margin: 10px 0;
+    text-align: flow; }
+  #page6 p {
+    margin: 0; }
+  #page6 h4 {
+    font-family: 'Kaushan';
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0; }
 
 /*==========  Last  ==========*/
 #last {
