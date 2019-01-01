@@ -122,7 +122,8 @@ p {
     font-size: 40px;
     margin: 10px;
     color: #000;
-    opacity: .75; }
+    opacity: .75;
+    cursor: pointer; }
 
 /*==========  Header  ==========*/
 header {
