@@ -272,6 +272,8 @@ header {
     background-color: #E9E8E7;
     padding: 30px;
     margin: 15px 0;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     text-align: flow; }
   #page6 p {
     margin: 0; }
